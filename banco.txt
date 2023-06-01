@@ -1,0 +1,32 @@
+create database notebooks;
+
+create table notebook_notebook(
+id int auto_increment primary key,
+modelo varchar(50),
+marca varchar(50),
+valor varchar(50)
+);
+create table notebook_chromebook(
+id int auto_increment primary key,
+modelo varchar(50),
+marca varchar(50),
+valor varchar(50)
+);
+create table notebook_macbook(
+id int auto_increment primary key,
+modelo varchar(50),
+marca varchar(50),
+valor varchar(50)
+);
+create table notebook_acer(
+id int auto_increment primary key,
+modelo varchar(50),
+marca varchar(50),
+valor varchar(50)
+);
+create table notebook_asus(
+id int auto_increment primary key,
+modelo varchar(50),
+marca varchar(50),
+valor varchar(50)
+);
